@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <version>2.2.2.3</version>
+    <url>https://storage.cloud.google.com/resolvepc/update.zip</url>
+    <mandatory>false</mandatory>
+</item>
