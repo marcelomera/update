@@ -3,5 +3,5 @@
     <version>2.2.2.3</version>
     <url>https://github.com/marcelomera/update/blob/main/update.zip?raw=true</url>
     <changelog>https://raw.githubusercontent.com/marcelomera/update/main/readme.txt</changelog>
-    <mandatory>false</mandatory>
+    <mandatory mode="1">true</mandatory>
 </item>
