@@ -1,7 +1,8 @@
 ---------------------------------------------
-Versão: 2.3.2.1 - Data: 16/11/2021
+Versão: 2.3.3.1 - Data: 16/11/2021
 
-# Novidades
+# Novidads
+- Novos Campos no cadastro da Pessoa
 - Atualizador Automático
 
 ---------------------------------------------
@@ -37,4 +38,3 @@ Versão: 2.2.0.2 - Data: 25/05/2021
 - Ajustado a quantidade de pedido para aceitar até 999
 - Ajustado a grid da tela do Produto para não aceitar o delete via grid.
 ---------------------------------------------
-
