@@ -1,4 +1,11 @@
 ---------------------------------------------
+Versão: 2.3.3.2 - Data: 18/11/2021
+
+# Correções
+- Ajustado o tamanho da tela Configurações Gerais
+- Lista do Cardapio do dia sendo carregado da data atual pra frente.
+
+--------------------------------------------
 Versão: 2.3.3.1 - Data: 16/11/2021
 
 # Novidads
