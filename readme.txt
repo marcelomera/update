@@ -1,4 +1,18 @@
 ---------------------------------------------
+Versão: 2.3.4.4 - Data: 02/02/2022
+
+# Novidades
+- Tela de boas vindas para primeiro acesso.
+- Servidor de Impressão
+- Cadastro de Mensagens com TAG´s
+- Identificação de Chamada pelo Sistema (Bina)
+- Logs de Erros
+
+# Correções
+- Ajustes no cadastro de Cardápio.
+- Atualizador Automático passa a verificar se possui internet.
+
+---------------------------------------------
 Versão: 2.3.3.3 - Data: 23/11/2021
 
 # Correções
