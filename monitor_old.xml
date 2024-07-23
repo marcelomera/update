@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>1.0.0.3</version>
+    <version>1.0.0.2</version>
     <url>https://github.com/marcelomera/update/blob/main/monitor.zip?raw=true</url>
     <changelog>https://raw.githubusercontent.com/marcelomera/update/main/monitor.html</changelog>
     <mandatory mode="2">true</mandatory>
