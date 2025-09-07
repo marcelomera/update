@@ -2,7 +2,7 @@ name: Relatório de Bug
 description: Registre um relatório de bug.
 title: "[Bug]: "
 labels: ["bug", "triagem"]
-projects: ["octo-org/44"] # Substitua pelo projeto que deseja atrelar
+projects: ["teste"] # Substitua pelo projeto que deseja atrelar
 assignees:
   - polvo-gato
 body:
@@ -27,6 +27,9 @@ body:
       value: "Ocorreu um bug!"
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "### 📎 Anexos e logs"
   - type: dropdown
     id: navegadores
     attributes:
@@ -38,9 +41,6 @@ body:
         - Edge
         - Safari
         - Outros
-  - type: markdown
-    attributes:
-      value: "### 📎 Anexos e logs"
   - type: textarea
     id: registros
     attributes:
