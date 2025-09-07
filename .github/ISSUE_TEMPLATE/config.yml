@@ -1,8 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Dúvidas
-    url: https://github.com/orgs/community/discussions
-    about: Por favor, faça e responda perguntas aqui.
-  - name: Suporte
-    url: https://bounty.github.com/
-    about: Por favor, reporte bug e novas melhorias aqui.
