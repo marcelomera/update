@@ -2,7 +2,7 @@ name: Relatório de Bug
 description: Registre um relatório de bug.
 title: "[Bug]: "
 labels: ["bug", "triagem"]
-projects: ["teste"] # Substitua pelo projeto que deseja atrelar
+projects: ["marcelomera/update/1"]
 assignees:
   - polvo-gato
 body:
@@ -15,7 +15,7 @@ body:
     attributes:
       label: Detalhes de contato
       description: Como podemos entrar em contato com você se precisarmos de mais informações?
-      placeholder: ex. email@example.com
+      placeholder: ex. nome@example.com
     validations:
       required: false
   - type: textarea
