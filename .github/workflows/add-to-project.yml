@@ -12,7 +12,7 @@ jobs:
       issues: write
     steps:
       - name: Adicionar issue ao Project v2
-        uses: actions/add-to-project@v1
+        uses: actions/add-to-project@v1.0.2
         with:
           project-url: https://github.com/users/marcelomera/projects/2
           github-token: ${{ secrets.GITHUB_TOKEN }}
