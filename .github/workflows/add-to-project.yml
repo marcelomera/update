@@ -1,4 +1,5 @@
-name: Add issues to Project v2
+name: Adicionar Issues ao Project v2
+
 on:
   issues:
     types:
@@ -10,8 +11,8 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Add issue to Project v2
-        uses: actions/add-to-project@v0.5.0
+      - name: Adicionar issue ao Project v2
+        uses: actions/add-to-project@v1
         with:
           project-url: https://github.com/users/marcelomera/projects/2
           github-token: ${{ secrets.GITHUB_TOKEN }}
