@@ -2,7 +2,7 @@ name: Relatório de Bug
 description: Registre um relatório de bug.
 title: "[Bug]: "
 labels: ["bug", "triagem"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["octo-org/44"] # Substitua pelo projeto que deseja atrelar
 assignees:
   - polvo-gato
 body:
@@ -28,37 +28,27 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: versao
-    attributes:
-      label: Versão
-      description: Qual versão do nosso software você está executando?
-      options:
-        - 1.0.2 (Padrão)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
     id: navegadores
     attributes:
       label: Em quais navegadores você está vendo o problema?
       multiple: true
       options:
-        - Raposa de fogo
-        - Cromado
-        - Safári
-        - Microsoft Edge
+        - Firefox
+        - Chrome
+        - Edge
+        - Safari
+        - Outros
   - type: textarea
     id: registros
     attributes:
       label: Saída de log relevante
       description: Copie e cole qualquer saída de log relevante. Ela será formatada automaticamente em código.
       render: shell
-  - type: checkboxes
-    id: termos
-    attributes:
-      label: Código de Conduta
-      description: Ao enviar este problema, você concorda em seguir nosso [Código de Conduta](https://example.com).
-      options:
-        - label: Concordo em seguir o Código de Conduta deste projeto
-          required: true
+  # - type: checkboxes
+  #   id: termos
+  #   attributes:
+  #     label: Código de Conduta
+  #     description: Ao enviar este problema, você concorda em seguir nosso [Código de Conduta](https://example.com).
+  #     options:
+  #       - label: Concordo em seguir o Código de Conduta deste projeto
+  #         required: true
