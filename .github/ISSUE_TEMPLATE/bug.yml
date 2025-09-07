@@ -2,7 +2,7 @@ name: Relatório de Bug
 description: Registre um relatório de bug.
 title: "[Bug]: "
 labels: ["bug", "triagem"]
-projects: ["update/2"]
+projects: ["update/1"]
 assignees:
   - polvo-gato
 body:
