@@ -2,7 +2,6 @@ name: Relatório de Bug
 description: Registre um relatório de bug.
 title: "[Bug]: "
 labels: ["bug", "triagem"]
-projects: ["update/1"]
 assignees:
   - polvo-gato
 body:
@@ -45,8 +44,8 @@ body:
     id: registros
     attributes:
       label: Saída de log relevante
-      description: Copie e cole qualquer saída de log relevante. Ela será formatada automaticamente em código.
-      placeholder: Cole aqui a saída de log ou cole capturas de tela arrastando os arquivos.
+      description: Copie e cole qualquer saída de log relevante ou arraste arquivos.
+      placeholder: Cole aqui a saída de log ou capturas de tela.
       render: shell
   # - type: checkboxes
   #   id: termos
@@ -55,4 +54,4 @@ body:
   #     description: Ao enviar este problema, você concorda em seguir nosso [Código de Conduta](https://example.com).
   #     options:
   #       - label: Concordo em seguir o Código de Conduta deste projeto
-  #         required: true
+  #         requir
