@@ -8,11 +8,10 @@ jobs:
   add-to-project:
     runs-on: ubuntu-latest
     permissions:
-      issues: write # só isso
+      issues: write
     steps:
-      - name: Add issue to Project v2 Backlog
+      - name: Add issue to Project v2
         uses: actions/add-to-project@v0.5.0
         with:
           project-url: https://github.com/users/marcelomera/projects/2
-          column-name: Backlog
           github-token: ${{ secrets.GITHUB_TOKEN }}
