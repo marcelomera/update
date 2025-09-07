@@ -1,4 +1,4 @@
-blank_issues_enabled: falso
+blank_issues_enabled: false
 links de contato:
   - nome: Suporte da Comunidade GitHub
     URL: https://github.com/orgs/community/discussions
