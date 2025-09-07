@@ -2,22 +2,17 @@ name: Add Issue to Project v2
 
 on:
   issues:
-    types: [opened] # dispara quando uma issue é criada
+    types: [labeled]
 
 jobs:
-  add-to-project:
+  move-issue:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout do repositório
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      # 2. Adicionar a issue ao Project v2
-      - name: Add issue to Project v2
-        uses: peter-evans/create-project-card@v2
+      - name: Move Issue to Project Column
+        uses: m7kvqbe1/github-action-move-issues@v1.0.0
         with:
-          project-url: https://github.com/users/marcelomera/projects/2
-          content-id: ${{ github.event.issue.node_id }}
-          content-type: ISSUE
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PAT_TOKEN }}
+          project-url: "https://github.com/users/marcelomera/projects/2"
+          target-labels: "Size: Small, Size: Medium"
+          target-column: "Backlog"
+          ignored-columns: "Ready, In Progress, In Review, Done"
