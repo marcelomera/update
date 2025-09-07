@@ -38,11 +38,15 @@ body:
         - Edge
         - Safari
         - Outros
+  - type: markdown
+    attributes:
+      value: "### 📎 Anexos e logs"
   - type: textarea
     id: registros
     attributes:
       label: Saída de log relevante
       description: Copie e cole qualquer saída de log relevante. Ela será formatada automaticamente em código.
+      placeholder: Cole aqui a saída de log ou cole capturas de tela arrastando os arquivos.
       render: shell
   # - type: checkboxes
   #   id: termos
