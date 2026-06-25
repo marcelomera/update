@@ -1,5 +1,5 @@
 {
   "version": "1.1.12",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Ocultado o campo de manifesto, para que não seja possível ver a versão do firmware. Corrigido o bug de atualização automática, agora o firmware é atualizado corretamente."
+  "notes": "Ocultado o campo de manifesto, para que não seja possível ver a versão do firmware."
 }
