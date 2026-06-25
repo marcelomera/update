@@ -1,0 +1,5 @@
+{
+  "version": "1.1.9",
+  "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
+  "notes": "OTA via web, filtro de ruido RF (max/min), botao Sair"
+}
