@@ -1,5 +1,5 @@
 {
-  "version": "1.1.13",
+  "version": "1.1.14",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Ocultado o campo de manifesto."
+  "notes": "Pequenos ajustes e melhorias de desempenho."
 }
