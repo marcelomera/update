@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.0",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Correção chamada RF e POST"
+  "notes": "Painel de uso de RAM, Flash e PSRAM"
 }
