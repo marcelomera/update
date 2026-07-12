@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1",
+  "version": "2.6.0",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Adicionado Propaganda na TV"
+  "notes": "Correção chamada RF e POST"
 }
