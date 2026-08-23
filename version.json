@@ -1,5 +1,5 @@
 {
-  "version": "2.8.2",
+  "version": "2.9.4",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Atualização Pagina TV"
+  "notes": "Watchdog de task (reinicia sozinho se o loop travar) + histórico dos motivos de reinício (painel /debug), pra diagnosticar travamentos sem acesso físico"
 }
