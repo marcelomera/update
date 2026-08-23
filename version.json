@@ -1,5 +1,5 @@
 {
-  "version": "2.9.4",
+  "version": "2.9.5",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Watchdog de task (reinicia sozinho se o loop travar) + histórico dos motivos de reinício (painel /debug), pra diagnosticar travamentos sem acesso físico"
+  "notes": "Alerta via Telegram quando o gateway reinicia por travamento real (PANIC/watchdog/brownout) — configure em /telegram"
 }
