@@ -1,5 +1,5 @@
 {
-  "version": "2.9.5",
+  "version": "2.9.6",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Alerta via Telegram quando o gateway reinicia por travamento real (PANIC/watchdog/brownout) — configure em /telegram"
+  "notes": "Corrige alerta de reinicio via Telegram que podia se perder silenciosamente: agora espera a rede estar de fato pronta (IP+DNS) e retenta em caso de falha de envio"
 }
