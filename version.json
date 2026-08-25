@@ -1,5 +1,5 @@
 {
-  "version": "2.10.0",
+  "version": "2.10.1",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Corrige a causa confirmada por core dump dos travamentos: httpEnd() liberava o cliente TLS antes do HTTPClient, e o destrutor deste chamava stop() virtual sobre memoria ja liberada. Ordem de destruicao agora garantida pela linguagem."
+  "notes": "Build de teste do proprio mecanismo de atualizacao via web. Identica a 2.10.0 em tudo, exceto o numero da versao — nenhuma mudanca de comportamento."
 }
