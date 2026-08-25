@@ -1,5 +1,5 @@
 {
-  "version": "2.9.7",
+  "version": "2.9.8",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Corrige PANIC logo apos o boot: serializa chamadas HTTPS/TLS (token, telegram, propaganda, NTP) que disparavam simultaneas assim que a rede ficava pronta, esgotando o heap"
+  "notes": "Corrige os PANIC recorrentes: vazamento de heap nas tasks, corridas de dados entre tasks e handlers web, watchdog mal configurado e pilha do loop curta. Propaganda passa a ser lida de hora em hora, com cache salvo."
 }
