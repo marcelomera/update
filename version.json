@@ -1,5 +1,5 @@
 {
-  "version": "2.9.9",
+  "version": "2.10.0",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Corrige PANIC em buscarEmpresa quando a API devolve nome nulo (snprintf com ponteiro NULL). Mostra em /debug o core dump do ultimo travamento: task que quebrou, causa e backtrace."
+  "notes": "Corrige a causa confirmada por core dump dos travamentos: httpEnd() liberava o cliente TLS antes do HTTPClient, e o destrutor deste chamava stop() virtual sobre memoria ja liberada. Ordem de destruicao agora garantida pela linguagem."
 }
