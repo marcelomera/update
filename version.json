@@ -1,5 +1,5 @@
 {
-  "version": "2.9.8",
+  "version": "2.9.9",
   "url": "https://raw.githubusercontent.com/marcelomera/update/main/firmware.bin",
-  "notes": "Corrige os PANIC recorrentes: vazamento de heap nas tasks, corridas de dados entre tasks e handlers web, watchdog mal configurado e pilha do loop curta. Propaganda passa a ser lida de hora em hora, com cache salvo."
+  "notes": "Corrige PANIC em buscarEmpresa quando a API devolve nome nulo (snprintf com ponteiro NULL). Mostra em /debug o core dump do ultimo travamento: task que quebrou, causa e backtrace."
 }
